@@ -22,6 +22,3 @@ CREATE TABLE `wp_comments` (
   KEY `comment_parent` (`comment_parent`),
   KEY `comment_author_email` (`comment_author_email`(10))
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-LOCK TABLES `wp_comments` WRITE;
-INSERT INTO `wp_comments` VALUES ('1','1','Mr WordPress','','https://wordpress.org/','','2015-06-16 12:33:48','2015-06-16 12:33:48','Hi, this is a comment.\nTo delete a comment, just log in and view the post&#039;s comments. There you will have the option to edit or delete them.','0','1','','','0','0');
-UNLOCK TABLES;

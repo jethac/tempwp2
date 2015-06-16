@@ -5,7 +5,7 @@ CREATE TABLE `wp_revisr` (
   `message` text,
   `event` varchar(42) NOT NULL,
   UNIQUE KEY `id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4;
 LOCK TABLES `wp_revisr` WRITE;
-INSERT INTO `wp_revisr` VALUES ('1','2015-06-16 12:37:19','Error staging files.','error'), ('2','2015-06-16 12:37:19','Error committing the changes to the local repository.','error'), ('3','2015-06-16 12:37:53','Error committing the changes to the local repository.','error'), ('4','2015-06-16 12:38:42','Error committing the changes to the local repository.','error'), ('5','2015-06-16 12:39:47','Committed <a href=\"http://10.0.0.134/w/three/wp-admin/post.php?post=7&action=edit\">#ccc387a</a> to the local repository.','commit');
+INSERT INTO `wp_revisr` VALUES ('1','2015-06-16 12:37:19','Error staging files.','error'), ('2','2015-06-16 12:37:19','Error committing the changes to the local repository.','error'), ('3','2015-06-16 12:37:53','Error committing the changes to the local repository.','error'), ('4','2015-06-16 12:38:42','Error committing the changes to the local repository.','error'), ('5','2015-06-16 12:39:47','Committed <a href=\"http://10.0.0.134/w/three/wp-admin/post.php?post=7&action=edit\">#ccc387a</a> to the local repository.','commit'), ('6','2015-06-16 12:41:39','Successfully backed up the database.','backup'), ('7','2015-06-16 12:41:47','Error pushing changes to the remote repository.','error'), ('8','2015-06-16 12:44:59','Successfully pushed 1 commit to origin/master.','push');
 UNLOCK TABLES;
